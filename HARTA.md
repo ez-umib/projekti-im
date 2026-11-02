@@ -1,23 +1,67 @@
-# Harta e produktit
+# HARTA — Rrjedha e përdoruesit dhe MVP
 
-## Puna e vetme
-Studenti i sheh në një vend mundësitë jashtë vendit dhe afatet e tyre, që të mos i humbasë asnjë afat aplikimi.
+**Projekti:** Aplikacion mobil për mundësi ndërkombëtare për studentët
+**Ekipi:** Erza Zejnullahu dhe Hata Zeka
 
-## Rrjedha kryesore
-1. **Lista e mundësive**: të gjitha mundësitë, të renditura sipas afatit më të afërt. Filtër sipas kategorisë (Erasmus+, Bursë, Praktikë, Shkollë verore). Afati nën 30 ditë del me të kuqe.
-2. **Detajet**: përshkrimi, shteti, afati me ditët e mbetura dhe lista e dokumenteve që duhen.
-3. **Kujtesa**: butoni "Më njofto 3 ditë para afatit" vendos një njoftim në telefon.
-4. **Dokumentet e mia** *(e ardhshme)*: studenti i shënon dokumentet që i ka gati (✓) për secilën mundësi.
+## Përdoruesi i parë
 
-Skicat: `skica/` (foto nga letra)
+Studenti universitar në Kosovë që dëshiron të aplikojë për Erasmus+, bursë, praktikë profesionale ose shkollë verore jashtë vendit.
 
-## MVP
+## Një punë kryesore (Job to Be Done)
 
-| Brenda | Jashtë |
-|---|---|
-| Lista e mundësive me filtër sipas kategorisë | Llogaritë dhe kyçja |
-| Renditja sipas afatit dhe paralajmërimi për afatin e afërt | Aplikimi direkt nga aplikacioni |
-| Ekrani i detajeve me listën e dokumenteve | Mundësitë nga një server / databazë e vërtetë |
-| Njoftimi lokal 3 ditë para afatit | Njoftimet push nga serveri |
-| Shënimi i dokumenteve të gatshme | Chat me koordinatorët |
-| | Rekomandime sipas profilit të studentit |
+Kur studenti kërkon një mundësi ndërkombëtare, dëshiron të gjejë shpejt informacionet, afatin dhe dokumentet e nevojshme, në mënyrë që të përgatitet për aplikim pa humbur afatin.
+
+## Rrjedha kryesore e aplikacionit
+
+### Ekrani 1 — Lista e mundësive
+
+- Shfaq mundësitë për Erasmus+, bursa, praktika dhe shkolla verore.
+- Lejon filtrimin sipas kategorisë.
+- Rendit mundësitë sipas afatit.
+- Thekson vizualisht afatet që po afrohen.
+
+### Ekrani 2 — Detajet e mundësisë
+
+- Shfaq titullin dhe përshkrimin.
+- Shfaq datën e fundit të aplikimit.
+- Shfaq dokumentet e kërkuara.
+- Mundëson kthimin te lista.
+
+### Veprimi 3 — Rikujtimi i afatit
+
+- Studenti mund të kërkojë një rikujtim për afatin.
+- Aplikacioni synon të planifikojë një njoftim lokal tri ditë para afatit, kur lejet dhe mjedisi i pajisjes e mbështesin.
+
+### Ekrani 4 — Dokumentet e mia (zhvillim i ardhshëm)
+
+- Studenti shënon dokumentet që ka përgatitur.
+- Kontrollon dokumentet që i mungojnë.
+- Ndjek përgatitjen e aplikimit.
+
+Ky ekran nuk është pjesë e versionit aktual funksional.
+
+## Brenda MVP-së
+
+- Lista e mundësive.
+- Filtrimi sipas kategorisë.
+- Hapja e detajeve.
+- Shfaqja e afateve dhe dokumenteve.
+- Theksimi i afateve të afërta.
+- Funksioni për planifikimin e rikujtimeve, me kufizimet e njoftimeve në Expo Go.
+
+## Jashtë MVP-së
+
+- Regjistrimi dhe kyçja e përdoruesve.
+- Aplikimi direkt në universitete.
+- Ngarkimi i dokumenteve personale.
+- Ndjekja e statusit të aplikimit.
+- Panel administrimi.
+- Menaxhimi interaktiv i dokumenteve.
+
+## Rezultati i synuar
+
+Studenti mund të kalojë nga lista te detajet e një mundësie dhe të kuptojë çfarë dokumentesh i nevojiten dhe deri kur duhet të aplikojë.
+
+## Verifikimi teknik
+
+Rrjedha lista → detajet → kthimi te lista, si dhe filtrimi sipas kategorisë, janë testuar në iPhone përmes Expo Go.

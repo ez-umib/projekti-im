@@ -2,7 +2,7 @@
 
 ## Anëtarët
 - Erza Zejnullahu (GitHub: ez-umib)
-- Hata Zeka (GitHub: ______)
+- Hata Zeka (GitHub: hatezeka)
 
 ## Rruga
 Rruga: __ <!-- 1, 2 ose 3, sipas udhëzimit të lëndës -->
